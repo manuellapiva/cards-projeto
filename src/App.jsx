@@ -6,6 +6,7 @@ import i2 from "./assets/img/2.png"
 import i3 from "./assets/img/3.png"
 import i4 from "./assets/img/4.png"
 import i5 from "./assets/img/5.png"
+import i6 from "./assets/img/6.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -17,6 +18,8 @@ const cards = [
   { id: 4, type: 1, titulo: 'Estrutura de pastas', texto: 'A estrutura de pastas é um ponto importante para o projeto, que deve seguir no mínimo essa organização para funcionar certo, mantendo um padrão organizacional.', code: i4, tip:"💡Siga a estrutua para uma boa organização padrão!"},
 
   { id: 5, type: 1, titulo: 'Main.jsx', texto: 'É o ponto de entrada principal em projeto, a estrutura mais comum e atualizada do main.jsx  foca em três partes: as importações, a seleção do elemento HTML e a renderização.', code: i5, tip:"💡Mantenha o seu main.jsx limpo"},
+
+  { id: 6, type: 1, titulo: 'App.jsx', texto: 'É o componente raiz principal em projetos React, servindo como o ponto de entrada central para a interface do usuário.', code: i6, tip:"💡Use o App.jsx apenas para organizar seus componentes principais, evitando lógica complexa nele."},
 ]
 
 function App() {
