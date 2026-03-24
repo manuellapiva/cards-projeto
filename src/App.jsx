@@ -17,6 +17,7 @@ import i13 from "./assets/img/13.png"
 import i14 from "./assets/img/14.png"
 import i15 from "./assets/img/15.png"
 import i16 from "./assets/img/16.png"
+import i17 from "./assets/img/17.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -50,6 +51,8 @@ const cards = [
   { id: 15, type: 3, titulo: 'Organização de componentes em pastas', texto: 'Deve seguir uma estrutura modular, agrupando arquivos por funcionalidade ou tipos, para garantir fácil manutenção.', code: i15, tip:"💡 Índice de Exportação (index.js).Use um arquivo index.js dentro da pasta do componente para atuar como um porteiro."},
   
   { id: 16, type: 4, titulo: 'O que são props', texto: 'Props são mecanismos para passar dados de um componente pai para um componente filho. Elas funcionam como argumentos de funções, tornando os componentes flexíveis, reutilizáveis e somente leitura. ', code: i16, tip:"💡As props permitem personalizar componentes com diferentes textos, estilos ou funções no código."},
+
+  { id: 17, type: 4, titulo: 'Passando props para componentes', texto: 'Para passar uma prop para um componente, você a adiciona ao componente filho como se fosse um atributo HTML. No componente filho, você recebe as props como um parâmetro da função e pode usá-las dentro do JSX.  ', code: i17, tip:"💡Quando um componente recebe muitas props relacionadas, considere agrupar elas em um objeto. Isso reduz o número de props e torna o código mais organizado."},
 ]
 
 function App() {
