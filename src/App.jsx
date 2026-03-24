@@ -20,6 +20,7 @@ import i16 from "./assets/img/16.png"
 import i17 from "./assets/img/17.png"
 import i18 from "./assets/img/18.png"
 import i19 from "./assets/img/19.png"
+import i20 from "./assets/img/20.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -59,6 +60,9 @@ const cards = [
   { id: 18, type: 4, titulo: 'Props com valores padrão', texto: 'São valores pré-definidos que um componente React utiliza automaticamente quando uma prop não é fornecida pelo componente pai. Quando você cria um componente, pode definir que determinadas props tenham um valor padrão. ', code: i18, tip:"💡Se quem usa o componente não passar um valor específico para aquela prop, o componente utiliza automaticamente o valor padrão definido. Se um valor for fornecido, ele substitui o padrão."},
   
   { id: 19, type: 4, titulo: 'Desestruturação de props', texto: 'A desestruturação de props no React é uma técnica ES6 que extrai propriedades específicas de um objeto props diretamente para variáveis nomeadas na definição da função do componente. ', code: i19, tip:"💡Isso melhora a legibilidade, reduz repetições (evitando props.nome toda vez) e simplifica o código. "},
+
+  { id: 20, type: 5, titulo: 'O que é useEffect', texto: 'O useEffect é um Hook do React para gerenciar efeitos colaterais (APIs, DOM, timers). Ele executa após a renderização e seu comportamento depende do array de dependências.', code: i20, tip:"💡 Sempre use o array de dependências [] para evitar execuções infinitas. Array vazio [] roda uma vez (montagem), com variáveis [data] roda quando elas mudam, e sem array roda a cada"},
+
 ]
 
 function App() {
