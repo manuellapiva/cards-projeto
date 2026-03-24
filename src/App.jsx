@@ -26,6 +26,7 @@ import i22 from "./assets/img/22.png"
 import i23 from "./assets/img/23.png"
 import i24 from "./assets/img/24.png"
 import i25 from "./assets/img/25.png"
+import i26 from "./assets/img/26.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -77,6 +78,8 @@ const cards = [
   { id: 24, type: 6, titulo: "Renderização Condicional", texto: 'Permite exibir componentes ou elementos apenas quando certas condições são atendidas, utilizando operadores lógicos como && ou ternários.', code: i24, tip:"💡 Use o operador && quando quiser renderizar algo apenas se a condição for verdadeira."},
 
   { id: 25, type: 6, titulo: 'Listas com map( )', texto: 'RO método map() percorre um array de dados e retorna uma lista de elementos JSX, transformando dados brutos em componentes visuais.', code: i25, tip:"💡 O map() sempre retorna um novo array, por isso é ideal para imutabilidade no React."},
+
+  { id: 26, type: 6, titulo: 'A propriedade key nas listas', texto: 'As keys ajudam o React a identificar quais itens sofreram alteração, foram adicionados ou removidos, garantindo uma atualização eficiente do DOM.', code: i26, tip:"💡 Evite usar o índice do array como key se a ordem dos itens puder mudar."},
 ]
 
 function App() {
