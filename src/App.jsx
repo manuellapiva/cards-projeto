@@ -1,10 +1,10 @@
 //App.jsx dados vem e o map rola
 import Card from './components/Card'
 import './App.css'
-import helloworld from "./assets/img/helloworld.png"
+import i1 from "./assets/img/1.png"
 
 const cards = [
-  { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: helloworld, tip:"💡 Dica sobre React"}
+  { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
 ]
 
 function App() {
