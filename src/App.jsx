@@ -12,7 +12,10 @@ import i8 from "./assets/img/8.png"
 import i9 from "./assets/img/9.png"
 import i10 from "./assets/img/10.png"
 import i11 from "./assets/img/11.png"
-
+import i12 from "./assets/img/12.png"
+import i13 from "./assets/img/13.png"
+import i14 from "./assets/img/14.png"
+import i15 from "./assets/img/15.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -35,7 +38,16 @@ const cards = [
   
   { id: 10, type: 2, titulo: 'Fragments', texto: 'Os JSX Fragments (Fragmentos) são uma funcionalidade do React que permite agrupar uma lista de elementos filhos sem adicionar um nó extra (como uma <div>) ao DOM do navegador.',  code: i10, tip:"💡 Use-os para manter seu HTML sem lixo e não quebrar o seu CSS Layout. "},
   
-  { id: 11, type: 2, titulo: 'Classes CSS no JSX', texto: 'No JSX (usado no React), a maneira correta de adicionar classes CSS a um elemento é utilizando o atributo className em vez de class. Isso ocorre porque class é uma palavra-chave reservada no JavaScript.', code: i11, tip:"💡 Cuidado com a palavra class"}
+  { id: 11, type: 2, titulo: 'Classes CSS no JSX', texto: 'No JSX (usado no React), a maneira correta de adicionar classes CSS a um elemento é utilizando o atributo className em vez de class. Isso ocorre porque class é uma palavra-chave reservada no JavaScript.', code: i11, tip:"💡 Cuidado com a palavra class"},
+
+  { id: 12, type: 3, titulo: 'O que são componentes', texto: 'Componentes são unidades modulares, independentes e reutilizáveis de código que encapsulam funcionalidades específicas.', code: i12, tip:"💡 Não precisa saber como o código foi escrito por dentro, apenas quais são as entradas e saídas (a interface)."},
+  
+  { id: 13, type: 3, titulo: 'Criando um componente funcional', texto: 'Um componente funcional em React é uma função JavaScript que retorna JSX.', code: i13, tip:"💡 Deve se comportar como uma função matemática: para a mesma entrada (props), ele deve gerar sempre a mesma saída (interface)."},
+  
+  { id: 14, type: 3, titulo: 'Reutilização de componentes', texto: 'A reutilização de componentes é uma prática fundamental, que visa   evitar a duplicação de código. Seu objetivo é desenvolver códigos que poderão ser reutilizados em outras aplicações.', code: i14, tip:"💡 Dê nomes baseados na função, não na posição."},
+  
+  { id: 15, type: 3, titulo: 'Organização de componentes em pastas', texto: 'Deve seguir uma estrutura modular, agrupando arquivos por funcionalidade ou tipos, para garantir fácil manutenção.', code: i15, tip:"💡 Índice de Exportação (index.js).Use um arquivo index.js dentro da pasta do componente para atuar como um porteiro."},
+  
 ]
 
 function App() {
