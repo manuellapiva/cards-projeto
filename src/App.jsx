@@ -24,6 +24,7 @@ import i20 from "./assets/img/20.png"
 import i21 from "./assets/img/21.png"
 import i22 from "./assets/img/22.png"
 import i23 from "./assets/img/23.png"
+import i24 from "./assets/img/24.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -71,6 +72,8 @@ const cards = [
   { id: 22, type: 5, titulo: 'Dependencias do useEffect', texto: 'O array de dependências do useEffect controla quando o efeito é executado. Se omitido, roda a cada renderização. Se vazio, roda apenas uma vez na montagem do componente. Se contém valores, roda sempre que esses valores mudarem. ', code: i22, tip:"💡 Nunca atualize o estado (setState) dentro de um useEffect sem uma lista de dependências bem definida, ou o efeito rodará sem parar, pois a atualização gera nova renderização."},
 
   { id: 23, type: 5, titulo: 'Comunicação entre componentes', texto: 'A comunicação pai para filho em frameworks modernos como Angular e Vue é feita principalmente através de propriedades (Props ou @Input()), onde o pai envia dados diretamente para o filho.', code: i23, tip:"💡 O componente pai envia dados diretos para o filho. É ideal para passar configurações ou dados de exibição."},
+
+  { id: 24, type: 6, titulo: "Renderização Condicional", texto: 'Permite exibir componentes ou elementos apenas quando certas condições são atendidas, utilizando operadores lógicos como && ou ternários.', code: i24, tip:"💡 Use o operador && quando quiser renderizar algo apenas se a condição for verdadeira."},
 ]
 
 function App() {
