@@ -17,9 +17,6 @@ import i13 from "./assets/img/13.png"
 import i14 from "./assets/img/14.png"
 import i15 from "./assets/img/15.png"
 import i16 from "./assets/img/16.png"
-import i17 from "./assets/img/17.png"
-import i18 from "./assets/img/18.png"
-import i19 from "./assets/img/19.png"
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
