@@ -20,6 +20,9 @@ import i16 from "./assets/img/16.png"
 import i17 from "./assets/img/17.png"
 import i18 from "./assets/img/18.png"
 import i19 from "./assets/img/19.png"
+import i24 from "./assets/img/24.png"
+import i25 from "./assets/img/25.png"
+import i26 from "./assets/img/26.png"
 import i27 from "./assets/img/27.png"
 import i28 from "./assets/img/28.png"
 import i29 from "./assets/img/29.png"
@@ -63,6 +66,12 @@ const cards = [
   { id: 18, type: 4, titulo: 'Props com valores padrão', texto: 'São valores pré-definidos que um componente React utiliza automaticamente quando uma prop não é fornecida pelo componente pai. Quando você cria um componente, pode definir que determinadas props tenham um valor padrão. ', code: i18, tip:"💡Se quem usa o componente não passar um valor específico para aquela prop, o componente utiliza automaticamente o valor padrão definido. Se um valor for fornecido, ele substitui o padrão."},
   
   { id: 19, type: 4, titulo: 'Desestruturação de props', texto: 'A desestruturação de props no React é uma técnica ES6 que extrai propriedades específicas de um objeto props diretamente para variáveis nomeadas na definição da função do componente. ', code: i19, tip:"💡Isso melhora a legibilidade, reduz repetições (evitando props.nome toda vez) e simplifica o código. "},
+
+  { id: 24, type: 6, titulo: "Renderização Condicional", texto: 'Permite exibir componentes ou elementos apenas quando certas condições são atendidas, utilizando operadores lógicos como && ou ternários.', code: i24, tip:"💡 Use o operador && quando quiser renderizar algo apenas se a condição for verdadeira."},
+
+  { id: 25, type: 6, titulo: 'Listas com map( )', texto: 'RO método map() percorre um array de dados e retorna uma lista de elementos JSX, transformando dados brutos em componentes visuais.', code: i25, tip:"💡 O map() sempre retorna um novo array, por isso é ideal para imutabilidade no React."},
+
+  { id: 26, type: 6, titulo: 'A propriedade key nas listas', texto: 'As keys ajudam o React a identificar quais itens sofreram alteração, foram adicionados ou removidos, garantindo uma atualização eficiente do DOM.', code: i26, tip:"💡 Evite usar o índice do array como key se a ordem dos itens puder mudar."},
 
   { id: 27, type: 7, titulo: 'O que é useEffect', texto: 'O useEffect é um Hook do React para gerenciar efeitos colaterais (APIs, DOM, timers). Ele executa após a renderização e seu comportamento depende do array de dependências.', code: i27, tip:"💡 Sempre use o array de dependências [] para evitar execuções infinitas. Array vazio [] roda uma vez (montagem), com variáveis [data] roda quando elas mudam, e sem array roda a cada"},
 
