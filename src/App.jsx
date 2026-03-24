@@ -7,6 +7,12 @@ import i3 from "./assets/img/3.png"
 import i4 from "./assets/img/4.png"
 import i5 from "./assets/img/5.png"
 import i6 from "./assets/img/6.png"
+import i7 from "./assets/img/7.png"
+import i8 from "./assets/img/8.png"
+import i9 from "./assets/img/9.png"
+import i10 from "./assets/img/10.png"
+import i11 from "./assets/img/11.png"
+
 
 const cards = [
   { id: 1, type: 1, titulo: 'O que é react', texto: 'React é uma biblioteca JavaScript de código aberto, focada na criação de interfaces de usuário (UI) interativas e eficientes.', code: i1, tip:"💡Antes de começar o React domine JavaScript moderno."},
@@ -20,6 +26,16 @@ const cards = [
   { id: 5, type: 1, titulo: 'Main.jsx', texto: 'É o ponto de entrada principal em projeto, a estrutura mais comum e atualizada do main.jsx  foca em três partes: as importações, a seleção do elemento HTML e a renderização.', code: i5, tip:"💡Mantenha o seu main.jsx limpo"},
 
   { id: 6, type: 1, titulo: 'App.jsx', texto: 'É o componente raiz principal em projetos React, servindo como o ponto de entrada central para a interface do usuário.', code: i6, tip:"💡Use o App.jsx apenas para organizar seus componentes principais, evitando lógica complexa nele."},
+  
+  { id: 7, type: 2, titulo: 'O que é JSX', texto: 'É uma extensão de sintaxe para JavaScript, usada principalmente com o React para descrever interfaces de usuário (UI) de forma semelhante ao HTML. Ela facilita a criação de componentes, permitindo escrever estrutura e lógica no mesmo arquivo.', code: i7, tip:"💡 O JSX não é uma String. Você nunca deve usar aspas para envolver o bloco de código JSX."},
+  
+  { id: 8, type: 2, titulo: 'Diferença entre HTML e JSX', texto: 'A principal diferença entre HTML e JSX é que o HTML é uma linguagem de marcação padrão para criar páginas web, enquanto o JSX é uma extensão de sintaxe para o JavaScript, usada principalmente pelo React para descrever como a interface deve ser.', code: i8, tip:"💡 O JSX é Case-Sensitive (Diferencia Maiúsculas de Minúsculas)."},
+  
+  { id: 9, type: 2, titulo: 'Expressões dentro do JSX', texto: 'Expressões dentro do JSX no React permitem incorporar JavaScript dinâmico usando chaves {}. Elas podem incluir variáveis, operadores matemáticos, chamadas de funções, ternários e manipulação de arrays diretamente no HTML, desde que retornem um valor.', code: i9, tip:"💡 O JSX só aceita expressões que retornam um valor."},
+  
+  { id: 10, type: 2, titulo: 'Fragments', texto: 'Os JSX Fragments (Fragmentos) são uma funcionalidade do React que permite agrupar uma lista de elementos filhos sem adicionar um nó extra (como uma <div>) ao DOM do navegador.',  code: i10, tip:"💡 Use-os para manter seu HTML sem lixo e não quebrar o seu CSS Layout. "},
+  
+  { id: 11, type: 2, titulo: 'Classes CSS no JSX', texto: 'No JSX (usado no React), a maneira correta de adicionar classes CSS a um elemento é utilizando o atributo className em vez de class. Isso ocorre porque class é uma palavra-chave reservada no JavaScript.', code: i11, tip:"💡 Cuidado com a palavra class"}
 ]
 
 function App() {
